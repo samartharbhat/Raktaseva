@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#050816"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find Donors"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/locationText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loading location..."
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:padding="16dp"
+        android:layout_marginTop="22dp"
+        android:background="#141B2D"/>
+
+    <EditText
+        android:id="@+id/searchBlood"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Search Blood Group"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#AAAAAA"
+        android:backgroundTint="#FF3131"
+        android:layout_marginTop="22dp"/>
+
+    <Button
+        android:id="@+id/searchBtn"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="SEARCH"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:backgroundTint="#FF3131"
+        android:layout_marginTop="18dp"/>
+    <Button
+        android:id="@+id/profileBtn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="PROFILE"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#6A1B9A"
+        android:layout_marginTop="16dp"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="22dp"
+        android:divider="#050816"
+        android:dividerHeight="12dp"/>
+
+</LinearLayout>
+

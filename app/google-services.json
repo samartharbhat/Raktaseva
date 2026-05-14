@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "126802905476",
+    "project_id": "raktasevaconnect-ae0a1",
+    "storage_bucket": "raktasevaconnect-ae0a1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126802905476:android:8116b2a35862b4d0abb5d1",
+        "android_client_info": {
+          "package_name": "com.example.raktaseva"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-pnOPGPT_ro7veO1we5TzIf_PFLvAyKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
